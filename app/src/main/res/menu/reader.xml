@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/navigation_add"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:title="Download Note"
+        android:icon="@drawable/downloadmail"/>
+    <item
+        android:id="@+id/navigation_image"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:title="Remember Id"
+        android:icon="@drawable/brain"
+        />
+
+    <item
+        android:id="@+id/navigation_done"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:title="By Who"
+        android:icon="@drawable/owner"/>
+
+
+</menu>

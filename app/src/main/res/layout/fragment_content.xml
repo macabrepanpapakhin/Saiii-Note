@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Content"
+    android:background="#ffffff"
+    android:tag="content">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linearLayout12345"
+    android:orientation="horizontal">
+            <EditText
+                android:id="@+id/editText"
+                android:drawableStart="@drawable/server"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:breakStrategy="simple"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/no_background_button"
+                android:cursorVisible="false"
+                android:inputType="textMultiLine"
+                android:drawablePadding="15dp"
+                android:hint="Table Code Here..."
+                android:paddingLeft="15dp"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:textIsSelectable="true"/>
+
+            <Button
+                android:id="@+id/enter"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/editText"
+                android:background="@drawable/beautify_button"
+                android:text="Enter"
+                android:textAlignment="center"
+                android:layout_marginRight="15dp"
+                />
+</LinearLayout>
+
+
+
+        <ScrollView
+            android:layout_below="@+id/linearLayout12345"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:id="@+id/scrollview"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/layout"
+                android:orientation="vertical"
+                />
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

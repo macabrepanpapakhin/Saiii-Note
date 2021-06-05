@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/navigation_add"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:title="New Note"
+        app:cnb_iconColor="#2186c4"
+        android:icon="@drawable/newnote"/>
+    <item
+        android:id="@+id/navigation_image"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:title="Add Image"
+        app:cnb_iconColor="#2186c4"
+        android:icon="@drawable/add_image"
+        />
+
+    <item
+        android:id="@+id/navigation_done"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:title="Save"
+        app:cnb_iconColor="#2186c4"
+        android:icon="@drawable/ic_done_black_24dp"/>
+
+
+</menu>

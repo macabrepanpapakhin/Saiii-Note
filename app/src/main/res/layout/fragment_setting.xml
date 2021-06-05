@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Setting"
+    android:background="#3f5678"
+    android:tag="setting">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Text Color"
+          android:textSize="30sp"
+          android:id="@+id/textcolor"
+          android:textStyle="italic"
+          android:layout_marginBottom="20dp"/>
+      <com.rtugeek.android.colorseekbar.ColorSeekBar
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/color_seek_bar"
+          android:layout_below="@+id/textcolor"
+          app:showAlphaBar="true"
+          >
+      </com.rtugeek.android.colorseekbar.ColorSeekBar>
+
+
+      <TextView
+          android:layout_marginTop="150dp"
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:textStyle="italic"
+          android:textSize="30sp"
+          android:text="Background Paper"
+          android:id="@+id/wallpaper" />
+
+
+   <worker8.com.github.radiogroupplus.RadioGroupPlus
+       android:id="@+id/radio_group"
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/wallpaper"
+       android:paddingLeft="22dp"
+       >
+      >
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          >
+         <ImageView
+             android:layout_width="52dp"
+             android:layout_height="52dp"
+             android:src="@drawable/ironman"
+             android:layout_weight="1"/>
+
+
+         <TextView
+             android:layout_width="200dp"
+             android:layout_height="48dp"
+             android:text="Iron Man"
+             android:textSize="24sp"
+             android:textStyle="bold"
+             android:layout_marginStart="16dp"
+             android:layout_weight="1"
+             />
+         <RadioButton
+             android:layout_marginLeft="15dp"
+             android:paddingLeft="16dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/ironman"
+             android:layout_weight="1"/>
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_marginTop="15dp"
+          >
+         <ImageView
+             android:layout_width="52dp"
+             android:layout_height="52dp"
+             android:src="@drawable/latkhalal"
+             android:layout_weight="1"/>
+
+
+         <TextView
+             android:layout_width="200dp"
+             android:layout_height="48dp"
+             android:text="Lat Kha Lal"
+             android:textSize="24sp"
+             android:textStyle="bold"
+             android:layout_marginStart="16dp"
+             android:layout_weight="1"
+             />
+         <RadioButton
+             android:layout_marginLeft="15dp"
+             android:paddingLeft="16dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/latkhalal"
+             android:layout_weight="1"/>
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_marginTop="15dp"
+          >
+         <ImageView
+             android:layout_width="52dp"
+             android:layout_height="52dp"
+             android:src="@drawable/batman"
+             android:layout_weight="1"/>
+
+
+         <TextView
+             android:layout_width="200dp"
+             android:layout_height="48dp"
+             android:text="Bat Man"
+             android:textSize="24sp"
+             android:textStyle="bold"
+             android:layout_marginStart="16dp"
+             android:layout_weight="1"
+             />
+         <RadioButton
+             android:layout_marginLeft="15dp"
+             android:paddingLeft="16dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/batman"
+             android:layout_weight="1"/>
+
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_marginTop="15dp"
+          >
+         <ImageView
+             android:layout_width="52dp"
+             android:layout_height="52dp"
+             android:src="@drawable/statute"
+             android:layout_weight="1"/>
+
+
+         <TextView
+             android:layout_width="200dp"
+             android:layout_height="48dp"
+             android:text="Statue"
+             android:textSize="24sp"
+             android:textStyle="bold"
+             android:layout_marginStart="16dp"
+             android:layout_weight="1"
+
+             />
+         <RadioButton
+             android:layout_marginLeft="15dp"
+             android:paddingLeft="16dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/statue"
+             android:layout_weight="1"/>
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_marginTop="15dp"
+
+          >
+         <ImageView
+             android:layout_width="52dp"
+             android:layout_height="52dp"
+             android:src="@drawable/technologybackground"
+             android:layout_weight="1"/>
+
+
+         <TextView
+             android:layout_width="200dp"
+             android:layout_height="48dp"
+             android:text="0 1"
+             android:textSize="24sp"
+             android:textStyle="bold"
+             android:layout_marginStart="16dp"
+             android:layout_weight="1"
+
+             />
+         <RadioButton
+             android:layout_marginLeft="15dp"
+             android:paddingLeft="16dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/technology"
+             android:layout_weight="1"/>
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_marginTop="15dp"
+          >
+         <ImageView
+             android:layout_width="52dp"
+             android:layout_height="52dp"
+             android:src="@drawable/robort"
+             android:layout_weight="1"/>
+
+
+         <TextView
+             android:layout_width="200dp"
+             android:layout_height="48dp"
+             android:text="Robert"
+             android:textSize="24sp"
+             android:textStyle="bold"
+             android:layout_marginStart="16dp"
+             android:layout_weight="1"
+             />
+         <RadioButton
+             android:layout_marginLeft="15dp"
+             android:paddingLeft="16dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/robert"
+             android:layout_weight="1"/>
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_marginTop="15dp"
+
+          >
+         <ImageView
+             android:layout_width="52dp"
+             android:layout_height="52dp"
+             android:src="@drawable/depressionkaungsoelay"
+             android:layout_weight="1"/>
+
+
+         <TextView
+             android:layout_width="200dp"
+             android:layout_height="48dp"
+             android:text="Joker"
+             android:textSize="24sp"
+             android:textStyle="bold"
+             android:layout_marginStart="16dp"
+             android:layout_weight="1"
+             />
+         <RadioButton
+             android:layout_marginLeft="15dp"
+             android:paddingLeft="16dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/depressionkaungsoelay"
+             android:layout_weight="1"/>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="15dp"
+          android:orientation="horizontal">
+
+         <ImageView
+             android:layout_width="52dp"
+             android:layout_height="52dp"
+             android:src="@drawable/pink"
+             android:layout_weight="1"/>
+
+
+         <TextView
+             android:layout_width="200dp"
+             android:layout_height="48dp"
+             android:text="Pink"
+             android:textSize="24sp"
+             android:textStyle="bold"
+             android:layout_marginStart="16dp"
+             android:layout_weight="1"
+             />
+         <RadioButton
+             android:layout_marginLeft="15dp"
+             android:paddingLeft="16dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/girl"
+             android:layout_weight="1"/>
+      </LinearLayout>
+
+
+
+   </worker8.com.github.radiogroupplus.RadioGroupPlus>
+
+
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/radio_group"
+          android:text="Apply"
+          android:textAllCaps="false"
+          android:id="@+id/apply"
+          android:background="@drawable/beautify_button"
+          android:layout_margin="15dp"
+         />
+
+</RelativeLayout>
+</ScrollView>
+
+</FrameLayout>

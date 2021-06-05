@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2186c4</color>
+    <color name="colorPrimaryDark">#2186c4</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="textColor">#95a832</color>
+    <color name="iconBackgroundColor">#abb7ba</color>
+    <color name="colorSaiNote">#3295a8</color>
+    <color name="yellowBackground">#f0e407</color>
+    <color name="yellowBackground1">#a69e0d</color>
+    <color name="yellowBackground2">#ded52c</color>
+    <color name="nearWhite">#fafaf7</color>
+    <color name="tran">#00000000</color>
+    <color name="oldPaper">#f2eecb</color>
+    <color name="oldPaper1">#dbdad5</color>
+    <color name="oldPaper2">#bfbcae</color>
+    <color name="lightGreenColor">#42f5a4</color>
+    <color name="lightYellowColor">#f2f542</color>
+    <color name="lightBlueColor">#42f5d4</color>
+    <color name="veryLightBlueColor">#42d7f5</color>
+    <color name="black">#000000</color>
+
+</resources>

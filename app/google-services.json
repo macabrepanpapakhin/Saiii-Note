@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "372079366730",
+    "firebase_url": "https://saiii-ab25d-default-rtdb.firebaseio.com",
+    "project_id": "saiii-ab25d",
+    "storage_bucket": "saiii-ab25d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372079366730:android:9cb30e5bb1b6de88f10cb3",
+        "android_client_info": {
+          "package_name": "com.sailaminoak.saiii"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "372079366730-6h4ovggfpotedvr0p6obdam10rr1nr6f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQeHHj27T63FMpSg-CtAkhulBV6H2awc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "372079366730-6h4ovggfpotedvr0p6obdam10rr1nr6f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
